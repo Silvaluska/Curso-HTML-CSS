@@ -1,3 +1,38 @@
+header {
+    background: #bbbbbb;
+    padding: 20px 0;
+}
+
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    text-transform: uppercase;  
+    margin-left: 15px;
+}
+
+nav a {
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #c18c19;
+    text-decoration: underline;
+}
+
 #banner {
     width: 100%;
 }
@@ -10,6 +45,8 @@
 }
 .titulo-centralizado {
     text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
 }
 p {
     text-align: center;
@@ -21,13 +58,15 @@ em strong {
     color: red;
 }
 .beneficios {
-    background: #ffffff;
+    background: #bbbbbb;
     padding: 20px;
 }
 .itens {
     font-style: italic;
+    font-size: 20px;
+    padding: 20px 0px;
 }
-ul {
+.beneficios ul {
     display: inline-block;
     vertical-align: top;
     width: 20%;
