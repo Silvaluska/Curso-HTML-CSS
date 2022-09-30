@@ -2,36 +2,43 @@ header {
     background: #bbbbbb;
     padding: 20px 0;
 }
+
 .caixa {
     position: relative;
     width: 940px;
     margin: 0 auto;
 }
+
 nav {
     position: absolute;
     top: 110px;
     right: 0;
 }
+
 nav li {
     display: inline;
     text-transform: uppercase;  
     margin-left: 15px;
 }
+
 nav a {
     color: #000000;
     font-weight: bold;
     font-size: 22px;
     text-decoration: none;
 }
+
 nav a:hover {
     color: #c18c19;
     text-decoration: underline;
 }
+
 .produtos {
     width: 940px;
     margin: 0 auto;
     padding: 50px 0;
 }
+
 .produtos li {
     display: inline-block;
     text-align: center;
@@ -43,26 +50,43 @@ nav a:hover {
     border: 2px solid #000000;
     border-radius: 20px;
 }
+
 .produtos li:hover {
     border-color: #c18c19;
-    border-width: 4px;
 }
+
 .produtos li:hover h2 {
     font-size: 34px;
 }
+
 .produtos li:active {
     border-color: #008000;
 }
+
 .produtos h2 {
     font-size: 30px;
     font-weight: bold;
 }
+
 .produtos-descricao {
     font-size: 18px;
 }
+
 .produtos-preco {
     font-size: 22px;
     font-weight: bold;
     margin-top: 10px;
     
+}
+
+footer {
+    background: url("imagens/bg.jpg");
+    text-align: center;
+    padding: 40px 0px;
+}
+
+.copyright {
+    color: #ffffff;
+    font-size: 13px;
+    margin-top: 20px;
 }
