@@ -251,8 +251,10 @@ td, th {
 }
 
 /*CSS para Celulares*/
+
+/*CSS para Celulares (Index)*/
 @media screen and (max-width: 480px) {
-    .caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video {
+    .caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video, .main-contato {
         width: auto;
     }
     h1 {
@@ -265,5 +267,35 @@ td, th {
 
     .imagem-beneficios, .lista-beneficios {
         width: 100%;
+    }
+
+    .produtos {
+        width: auto;
+        padding: 20px 10px;
+    }
+
+    .produtos li {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .input-padrao {
+        width: 70%;
+        margin: 10px auto;
+    }
+
+    .enviar {
+        width: 70%;
+        margin: 0 50px;
+    }
+
+    table {
+        margin: 20px auto;
+    }
+
+    select {
+        width: 30%;
+        margin: 0 110px;
+        font-size: 20px;
     }
 }
